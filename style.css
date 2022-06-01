@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.open-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+    margin: 50px 0;
+}
+
+.big-text {
+    font-size: 30px;
+    color: hsl(234, 12%, 34%);
+}
+
+.small-text {
+    color: hsl(229, 6%, 66%);
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.header {
+    font-weight: 600;
+}
+
+.main {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+
+.card2 {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 100%;
+    gap: 30px;
+    border-top: 4px solid hsl(0, 78%, 62%);
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px 1px #ccc;
+}
+
+.card3 {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 100%;
+    gap: 30px;
+    border-top: 4px solid hsl(34, 97%, 64%);
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px 1px #ccc;
+}
+
+.card4 {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 20%;
+    gap: 30px;
+    border-top: 4px solid hsl(212, 86%, 64%);
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px 1px #ccc;
+}
+
+.middle-card {
+    display: flex;
+    width: 20%;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.smallest-text {
+    font-size: 12px;
+    margin-top: 10px;
+    color: hsl(229, 6%, 66%);
+}
+
+.card1 {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 20%;
+    gap: 30px;
+    border-top: 4px solid hsl(180, 62%, 55%);
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px 1px #ccc;
+}
+
+.card1-img {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+
+.attribution { font-size: 16px; text-align: center;
+padding: 20px; }
+.attribution a { color: hsl(180, 62%, 55%); 
+font-size: 16px;}
+
+
+
+@media only screen and (max-width:600px) {
+
+    .conatiner,.main,.open-text ,body {
+        width: 100%;
+    }
+
+    .main {
+        flex-direction: column;
+        padding: 40px;
+    }
+
+    .card1,.middle-card,.card4 {
+        width: 100%;
+    }
+    
+}
